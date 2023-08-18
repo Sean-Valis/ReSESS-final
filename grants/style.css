@@ -1,0 +1,128 @@
+
+.consistent-height .tab-content {
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.consistent-height .tab-content > .tab-pane {
+    display: block; /* undo "display: none;" */
+    visibility: hidden;
+    margin-right: -100%;
+    width: 100%;
+}
+
+.consistent-height .tab-content > .active {
+    visibility: visible;
+}
+
+.nav-link-theme{
+    border-radius: 0 !important;
+    border-left: 0 !important; 
+    border-right: 0 !important;
+    border-bottom: 0;
+    font-size: 18px;
+    font-weight: bold; 
+    color:#214971; 
+}
+
+.nav-link-theme:hover{
+    background-color:#E7EFF5;
+}
+.c-toggle-theme > .navbar-toggler-icon{
+    background-color: #f6b72b;
+}
+
+
+.nav-link-theme.active{ 
+    border-radius: 0 !important;
+    border-width: 3px;
+    border-top-color:#214971 !important; 
+    background-color: #f6b72b!important;
+}
+
+
+.c-font-15 > .nav-link:hover{
+    color:#f6b72b !important; 
+}
+
+.nav-link-theme{
+    border-radius: 0 !important;
+    border-left: 0 !important; 
+    border-right: 0 !important;
+    border-bottom: 0;
+    font-size: 18px !important;
+    font-weight: bold; 
+    color:#214971; 
+}
+
+.nav-link-theme:hover{
+    background-color:#E7EFF5;
+}
+
+.nav-link-theme.active{ 
+    border-radius: 0 !important;
+    border-width: 3px;
+    border-top-color:#214971 !important; 
+    background-color: #f6b72b!important;
+}
+
+.c-font-15 a{
+    text-transform: uppercase;
+    letter-spacing: 1px !important;
+    font-size: 13px;
+}
+
+.c-logo-p{
+    float: right; 
+} 
+.panel-title{
+    color: white; 
+    padding: 13px;
+    font-size: 16px;
+}
+.panel-heading{ 
+    background-color: #214971;
+    margin-bottom: -10px;
+}
+.panel-body{
+    padding: 13px;
+    border: 1px solid #214971; 
+    border-top: 0; 
+}
+
+
+
+
+@media only screen and (min-width: 990px){
+    .bg-black{
+        --bs-bg-opacity: 0.5; 
+    }
+    .c-font-15 a{
+        padding-left: 25px !important; 
+        font-weight: 600;
+        font-size: 15px !important;
+    }
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        --bs-bg-opacity: 0.7 !important;  
+        height: 70px !important;
+        transition:0.2s !important;
+        transition: bottom 0.3s; 
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .c-logo-p{
+        float: none; 
+    }  
+} 
+
+
+
+
+
+
+
